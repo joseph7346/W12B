@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>W12B: JS Axios</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="Generate_Random_Activity">
+        
+      <label class="heading" for="New_Activity">Generate a random activity:</label>
+
+      <br />
+      <br />
+
+      <button name="New_Activity" onclick="window.location.href=window.location.href" id="button1">Generate</button>
+
+      <p>activity: <code id="activity1"></code></p>
+
+      <p>accessibility: <code id="accessibility1"></code></p>
+
+      <p>type: <code id="type1"></code></p>
+
+      <p>participants: <code id="participants1"></code></p>
+
+      <p>price: <code id="price1"></code></p>
+
+      <p>link: <code id="link1"></code></p>
+
+      <p>key: <code id="key1"></code></p>
+    </div>
+
+    <br />
+
+    <div id="Generate_Activity_Participants">
+
+      <p class="heading">Generate a random activity based on the number of participants:</p>
+
+      <label id="dropdownParticipants" for="dropdownParticipants">Select number of participants:</label>
+
+      <select name="dropdownParticipants" id="dropdownParticipants">
+
+        <option value="1">1</option>
+
+        <option value="2">2</option>
+
+        <option value="3">3</option>
+
+        <option value="4">4</option>
+
+      </select>
+
+      <br />
+      <br />
+
+      <button onclick="window.location.href=window.location.href" id="button2">Generate</button>
+
+      <p>activity: <code id="activity2"></code></p>
+
+      <p>accessibility: <code id="accessibility2"></code></p>
+
+      <p>type: <code id="type2"></code></p>
+
+      <p>participants: <code id="participants2"></code></p>
+
+      <p>price: <code id="price2"></code></p>
+
+      <p>link: <code id="link2"></code></p>
+
+      <p>key: <code id="key2"></code></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
